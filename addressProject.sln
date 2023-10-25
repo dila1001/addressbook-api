@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addressBook", "addressBook\addressBook.csproj", "{F5E9A843-AC10-4D19-8366-A4E3313C7F5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addressBook.Tests", "addressBook.Tests\addressBook.Tests.csproj", "{37885E6D-DBDF-4B8C-B94D-319670F3C1AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5E9A843-AC10-4D19-8366-A4E3313C7F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E9A843-AC10-4D19-8366-A4E3313C7F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E9A843-AC10-4D19-8366-A4E3313C7F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E9A843-AC10-4D19-8366-A4E3313C7F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37885E6D-DBDF-4B8C-B94D-319670F3C1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37885E6D-DBDF-4B8C-B94D-319670F3C1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37885E6D-DBDF-4B8C-B94D-319670F3C1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37885E6D-DBDF-4B8C-B94D-319670F3C1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

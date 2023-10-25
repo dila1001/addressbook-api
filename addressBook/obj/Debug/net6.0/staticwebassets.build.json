@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Dqy2miIkRSmkGiRFEkel/hlLgqJ25SH7g10Z5Q6lY78=",
+  "Source": "addressBook",
+  "BasePath": "_content/addressBook",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "addressBook/wwwroot",
+      "Source": "addressBook",
+      "ContentRoot": "/Users/adilarazmi/salt/precourse/addressProject/addressBook/wwwroot/",
+      "BasePath": "_content/addressBook",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/adilarazmi/salt/precourse/addressProject/addressBook/wwwroot/index.html",
+      "SourceId": "addressBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/adilarazmi/salt/precourse/addressProject/addressBook/wwwroot/",
+      "BasePath": "_content/addressBook",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
