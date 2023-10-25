@@ -14,7 +14,7 @@ namespace addressBook.Services
         {
             new Entry()
             {
-                Id = Guid.NewGuid(),
+                Id = new Guid("26e40c03-1adc-4010-bdbd-306acfb7f05f"),
                 Name = "Adila",
                 Address = new Address()
                 {
@@ -25,7 +25,7 @@ namespace addressBook.Services
             },
             new Entry()
             {
-                Id = Guid.NewGuid(),
+                Id = new Guid("dbae89fe-375b-40ce-8ff1-2c6421e64f02"),
                 Name = "Dahlia",
                 Address = new Address()
                 {
@@ -48,7 +48,6 @@ namespace addressBook.Services
         {
             var serviceResponse = new ServiceResponse<EntryResponseDto>();
             var entry = _mapper.Map<Entry>(newEntry);
-            // entry.Id = entries.Max(c => c.Id) + 1;
             entry.Id = Guid.NewGuid();
             entries.Add(entry);
             serviceResponse.Data = _mapper.Map<EntryResponseDto>(entry);
